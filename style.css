@@ -328,6 +328,7 @@ p.mb-5 {
     margin-top: -70px;
     margin-left: 4px;
     font-size: 13px;
+    transition: all .3s;
 }
 
 .input:placeholder-shown + .label {
@@ -335,4 +336,27 @@ p.mb-5 {
     opacity: 0;
     visibility: hidden;
 }
+
+@media (max-width: 992px) {
+    .contact {
+        background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, .95));
+    }
+    .contact-form {
+        width: 80%;
+        margin: auto;
+    }
+}
 /* end contact */
+
+/* footer */
+.footer-link {
+    color: #eee;
+    font-size: 13px;
+    transition: all .3s;
+}
+
+.footer-link:hover {
+    color: #70aed2;
+    text-decoration: none;
+}
+/*end footer */
