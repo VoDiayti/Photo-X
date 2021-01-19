@@ -213,6 +213,10 @@ p.mb-5 {
     height: 100;
 }
 
+.img-fluid {
+    max-width: 77%;
+    height: auto;
+}
 /* end customers */
 
 /* pricing */
